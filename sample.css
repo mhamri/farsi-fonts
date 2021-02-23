@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Vazir;
+    src: url('fonts/Vazir.eot');
+    src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir.woff2') format('woff2'),
+         url('fonts/Vazir.woff') format('woff'),
+         url('fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('fonts/Vazir.eot');
+    src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir.woff2') format('woff2'),
+         url('fonts/Vazir.woff') format('woff'),
+         url('fonts/Vazir.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('fonts/Vazir.eot');
+    src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir.woff2') format('woff2'),
+         url('fonts/Vazir.woff') format('woff'),
+         url('fonts/Vazir.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('fonts/Vazir.eot');
+    src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir.woff2') format('woff2'),
+         url('fonts/Vazir.woff') format('woff'),
+         url('fonts/Vazir.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('fonts/Vazir.eot');
+    src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir.woff2') format('woff2'),
+         url('fonts/Vazir.woff') format('woff'),
+         url('fonts/Vazir.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('fonts/Vazir.eot');
+    src: url('fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Vazir.woff2') format('woff2'),
+         url('fonts/Vazir.woff') format('woff'),
+         url('fonts/Vazir.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+/* -------font-face for Vazir font end------- */
+
+
+/* -------Set Vazir font in bootstrap begin------- */
+
+/* Set Vazir font as default font for sans-serif components in bootstrap texts */
+:root {
+    --font-family-sans-serif: Vazir, sans-serif;
+    /* right to left direction for root element */
+    direction: rtl;
+}
+
+/* Set Vazir font for body texts */
+body {
+    font-family: Vazir, sans-serif;
+    /* Text align right for elements in the body */
+    text-align: right;
+}
+
+/* Set Vazir fonts for form elements in Html */
+input,
+button,
+select,
+optgroup,
+textarea {
+    font-family: Vazir, sans-serif;
+}
